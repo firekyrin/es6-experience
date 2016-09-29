@@ -3,13 +3,13 @@
 调试步骤
 
 * $ npm install
-* vim /etc/hosts 添加内容：
+* $ vim /etc/hosts 添加内容：
 
 ```
 127.0.0.1       develop.com
 ```
 
-* vim /usr/local/etc/nginx/nginx.conf 添加内容：
+* $ vim /usr/local/etc/nginx/nginx.conf 添加内容：
 
 ```
 server {
@@ -28,9 +28,9 @@ server {
     }
 ```
 
-* sudo nginx -s reload  
-* cd /Users/kai/Documents/workspace/es6-experience/Sample-Code/vue-test/nephew
-* webpack-dev-server --port=8080
+* $ sudo nginx -s reload  
+* $ cd /Users/kai/Documents/workspace/es6-experience/Sample-Code/vue-test/nephew
+* $ webpack-dev-server --port=8080
 * 浏览器打开http://develop.com/index.html#!/
 
 
