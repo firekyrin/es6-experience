@@ -13,4 +13,6 @@ title: 优秀文章推荐阅读
 * [vuejs](http://vuejs.org/)
 * [vue-devtools](https://github.com/vuejs/vue-devtools)
 * [koajs](http://koajs.cn)
-
+* [AngularJS](https://angularjs.org/)
+* {AngularJS2](https://angular.io/)
+* [polymer](://github.com/Polymer/polymer)
