@@ -15,4 +15,4 @@ title: 优秀文章推荐阅读
 * [koajs](http://koajs.cn)
 * [AngularJS](https://angularjs.org/)
 * [AngularJS2](https://angular.io/)
-* [polymer](://github.com/Polymer/polymer)
+* [polymer](https://github.com/Polymer/polymer)
