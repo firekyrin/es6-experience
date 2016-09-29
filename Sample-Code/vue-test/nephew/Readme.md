@@ -34,4 +34,7 @@ server {
 * 浏览器打开http://develop.com/index.html#!/
 
 ### 难点：嵌套路由
-参考文档：https://github.com/vuejs/vue-router/blob/1.0/docs/zh-cn/nested.md
+嵌套路由文档：https://github.com/vuejs/vue-router/blob/1.0/docs/zh-cn/nested.md
+
+### 参考文档
+* [vue生命周期图](http://mmbiz.qpic.cn/mmbiz_png/tnZGrhTk4de9J8NKgGTv1rjsknI07FhXMvYA3cWctBanoYXuiazx8wLrhRSnYK7XAiaghXRReWlgoylIVmB8d89g/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
