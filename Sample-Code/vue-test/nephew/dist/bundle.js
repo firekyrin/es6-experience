@@ -13226,7 +13226,7 @@
 			component: __webpack_require__(8)
 		},
 		'*': {
-			component: __webpack_require__(9)
+			component: __webpack_require__(10)
 		}
 	};
 
@@ -13246,16 +13246,32 @@
 /* 7 */
 /***/ function(module, exports) {
 
-	module.exports = "<h1>Index</h1>\n<hr/>\n<p>Hello World Index!</p>\n";
+	module.exports = "<h1>Index</h1>\n<hr/>\n<p>Hello World Index!</p>\n<p><a v-link=\"{path: '/list'}\">List Page</a></p>\n";
 
 /***/ },
 /* 8 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 
+	module.exports = {
+		template: __webpack_require__(9),
+
+		data: function data() {
+			return { items: [{ "id": 1, "name": "hello11" }, { "id": 2, "name": "hello22" }] };
+		},
+
+		ready: function ready() {}
+	};
+
 /***/ },
 /* 9 */
+/***/ function(module, exports) {
+
+	module.exports = "<h1>List</h1>\n<hr/>\n\n<p>Hello List Page!</p>\n<ul>\n\t<li v-for=\"(index, item) in items\">\n\t\t${item.id} : ${item.name}\n\t</li>\n</ul>\n";
+
+/***/ },
+/* 10 */
 /***/ function(module, exports) {
 
 	"use strict";
