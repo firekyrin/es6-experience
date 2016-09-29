@@ -1,14 +1,14 @@
 # vue-test/nephew
 
 调试步骤
-> 1 $ npm install
-> 2 vim /etc/hosts 添加内容：
+> $ npm install
+> vim /etc/hosts 添加内容：
 
 ```
 127.0.0.1       develop.com
 ```
 
-> 3 vim /usr/local/etc/nginx/nginx.conf 添加内容：
+> vim /usr/local/etc/nginx/nginx.conf 添加内容：
 
 ```
 server {
@@ -27,7 +27,7 @@ server {
     }
 ```
 
-> 4 $ sudo nginx -s reload 
-> 5 $ cd /Users/kai/Documents/workspace/es6-experience/Sample-Code/vue-test/nephew
-> 6 $ webpack-dev-server --port=8080
-> 7 浏览器打开http://develop.com/index.html#!/
+> $ sudo nginx -s reload 
+> $ cd /Users/kai/Documents/workspace/es6-experience/Sample-Code/vue-test/nephew
+> $ webpack-dev-server --port=8080
+> 浏览器打开http://develop.com/index.html#!/
