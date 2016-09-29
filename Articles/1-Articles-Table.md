@@ -14,5 +14,5 @@ title: 优秀文章推荐阅读
 * [vue-devtools](https://github.com/vuejs/vue-devtools)
 * [koajs](http://koajs.cn)
 * [AngularJS](https://angularjs.org/)
-* {AngularJS2](https://angular.io/)
+* [AngularJS2](https://angular.io/)
 * [polymer](://github.com/Polymer/polymer)
