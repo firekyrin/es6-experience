@@ -4,6 +4,8 @@
 <p>Hello List Page!</p>
 <ul>
 	<li v-for="(index, item) in items">
-		${item.id} : ${item.name}
+		<!-- ${item.id} : ${item.name} -->
+		<!-- 使用item子组件，同时把id,name使用props传值给item子组件 -->
+		<item v-bind:id="item.id" v-bind:name="item.name"></item>
 	</li>
 </ul>

@@ -1,6 +1,6 @@
 # vue-test/nephew
 
-调试步骤
+### 调试步骤
 
 * $ npm install
 * $ vim /etc/hosts 添加内容：
@@ -33,4 +33,5 @@ server {
 * $ webpack-dev-server --port=8080
 * 浏览器打开http://develop.com/index.html#!/
 
-
+### 难点：嵌套路由
+参考文档：https://github.com/vuejs/vue-router/blob/1.0/docs/zh-cn/nested.md

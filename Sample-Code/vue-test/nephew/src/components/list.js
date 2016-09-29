@@ -1,8 +1,15 @@
+import item from './item';
+
 module.exports = {
 	template: require('../templates/list.html'),
 
 	data: function () {
 		return {items: [{"id": 1, "name": "hello11"}, {"id": 2, "name": "hello22"}]};
+	},
+
+	//定义item组件为子组件
+	components: {
+		'item': item
 	},
 
 	//在实例开始初始化时同步调用。此时数据观测、事件和watcher都尚未初始化
