@@ -1,0 +1,24 @@
+{
+  "name": "nephew",
+  "version": "1.0.0",
+  "description": "about webpack & vue & vue-router's spa sample, blog: http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653577777&idx=1&sn=4b5377051bd849b85af17bcf8c05174c&scene=4#wechat_redirect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "firekyrin",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^1.0.28",
+    "vue-router": "^0.7.13"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "html-loader": "^0.4.4",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  }
+}
