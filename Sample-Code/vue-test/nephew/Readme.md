@@ -7,7 +7,7 @@
 127.0.0.1       develop.com
 ```
 > 3. vim /usr/local/etc/nginx/nginx.conf 添加内容：
- ```
+```
 server {
         listen 80;
         server_name develop.com;
