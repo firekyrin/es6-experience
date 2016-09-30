@@ -1,0 +1,17 @@
+{
+  "name": "cnodejs_api_client",
+  "version": "1.0.0",
+  "description": "write api sdk client by using nodejs. sample: https://cnodejs.org/topic/572d68b1afd3b34a17ff40f0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sdk"
+  ],
+  "author": "firekyrin",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.75.0"
+  }
+}
