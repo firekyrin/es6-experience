@@ -17,3 +17,7 @@ title: VueJs开发移动应用汇总
 * [vue-mobile-qq](https://github.com/hilongjw/vue-mobile-qq)
 * [vue-zhihu-daily](https://github.com/hilongjw/vue-zhihu-daily)(重要)
 * [Vue-cnodejs](https://github.com/shinygang/Vue-cnodejs)
+
+### vuex文档
+* [1] [用 Vuex 构建一个笔记应用](http://www.tuicool.com/articles/qUzMN3Y)
+* [2] [vuex入门实例(1/3)](http://www.tuicool.com/articles/jyUbIbm)
